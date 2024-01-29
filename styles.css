@@ -163,6 +163,7 @@ button {
 
 li div:last-of-type span:first-of-type {
     color: hsl(224, 30%, 27%);
+    padding-right: 4px;
 }
 
 li div:last-of-type span:last-of-type {
