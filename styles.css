@@ -23,6 +23,10 @@ html {
 body {
     font-family: "Hanken Grotesk";
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 button {
