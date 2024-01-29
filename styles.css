@@ -29,10 +29,6 @@ body {
     height: 100vh;
 }
 
-button {
-    font-family: inherit;
-}
-
 * {
     /* border: 1px solid red; */
     box-sizing: border-box;
@@ -105,7 +101,7 @@ h1 {
 /* Right side */
 
 #result-summary {
-    padding: 30px 50px;
+    padding: 30px 35px;
 }
 
 ul {
@@ -143,4 +139,15 @@ li {
 .visual {
     background-color: hsla(234, 85%, 45%, 0.1);
     color: hsl(234, 85%, 45%);
+}
+
+button {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(221, 100%, 96%);
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
 }
