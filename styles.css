@@ -39,8 +39,10 @@ body {
 main {
     display: flex;
     width: 700px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     flex-wrap: wrap ;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px hsla(224, 30%, 27%, 0.1);
 }
 
 #result-marks,
