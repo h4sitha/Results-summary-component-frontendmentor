@@ -28,3 +28,17 @@ body {
 button {
     font-family: inherit;
 }
+
+* {
+    border: 1px solid red;
+}
+
+main {
+    display: flex;
+    width: 700px;
+}
+
+#result-marks,
+#result-summary {
+    width: 50%;
+}
