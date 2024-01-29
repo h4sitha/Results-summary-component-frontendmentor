@@ -30,7 +30,7 @@ button {
 }
 
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     box-sizing: border-box;
 }
 
@@ -42,6 +42,11 @@ main {
 #result-marks,
 #result-summary {
     width: 50%;
+}
+
+#marks span:first-of-type {
+    padding-top: 7px;
+    font-weight: 700;
 }
 
 #result-marks {
@@ -61,8 +66,8 @@ main {
 }
 
 #marks {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     text-align: center;
     margin: auto;
