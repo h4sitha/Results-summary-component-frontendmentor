@@ -110,6 +110,7 @@ h1 {
 
 #result-summary h1 {
     margin-bottom: 0;
+    color: hsl(224, 30%, 27%);
 }
 
 ul {
@@ -153,9 +154,22 @@ button {
     font-family: inherit;
     font-size: inherit;
     background-color: hsl(224, 30%, 27%);
-    color: hsl(221, 100%, 96%);
+    color: hsl(0, 0%, 100%);
     width: 100%;
     padding: 13px;
     border-radius: 30px;
     border: none;
+}
+
+li div:last-of-type span:first-of-type {
+    color: hsl(224, 30%, 27%);
+}
+
+li div:last-of-type span:last-of-type {
+    color: hsla(224, 30%, 27%, 0.5);
+}
+
+li div:last-of-type span:last-of-type,
+li div:last-of-type span:first-of-type {
+    font-weight: 800;
 }
