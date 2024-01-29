@@ -44,11 +44,6 @@ main {
     width: 50%;
 }
 
-#marks span:first-of-type {
-    padding-top: 25px;
-    font-weight: 700;
-}
-
 #result-marks {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     color: hsl(0, 0%, 100%);
@@ -84,6 +79,8 @@ main {
 #marks span:first-of-type {
     font-size: 3.75rem;
     height: 67%;
+    padding-top: 25px;
+    font-weight: 700;
 }
 
 #marks span:last-of-type {
