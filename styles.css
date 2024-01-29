@@ -45,7 +45,7 @@ main {
 }
 
 #marks span:first-of-type {
-    padding-top: 7px;
+    padding-top: 25px;
     font-weight: 700;
 }
 
@@ -72,8 +72,8 @@ main {
 }
 
 #marks {
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 190px;
     border-radius: 50%;
     text-align: center;
     margin: auto;
@@ -82,12 +82,13 @@ main {
 }
 
 #marks span:first-of-type {
-    font-size: 3.5rem;
-    height: 70%;
+    font-size: 3.75rem;
+    height: 67%;
 }
 
 #marks span:last-of-type {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    padding-top: 7px;
 }
 
 #result-marks h2 {
