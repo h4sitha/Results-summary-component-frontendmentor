@@ -101,3 +101,9 @@ main {
     font-size: 1.25rem;
     margin-bottom: 30px;
 }
+
+/* Right side */
+
+#result-summary {
+    padding: 30px 50px;
+}
