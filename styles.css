@@ -48,11 +48,11 @@ main {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     color: hsl(0, 0%, 100%);
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 #result-marks p {
-    padding: 0 50px;
+    padding: 0 50px 5px 50px;
 }
 
 #result-marks h1,
@@ -92,8 +92,10 @@ main {
 
 #result-marks h2 {
     font-size: 1.75rem;
+    margin-bottom: -7px;
 }
 
 #result-marks h1 {
     font-size: 1.25rem;
+    margin-bottom: 30px;
 }
