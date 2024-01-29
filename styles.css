@@ -127,7 +127,14 @@ li {
     justify-content: space-between;
     padding: 13px 15px;
     border-radius: 8px;
-    margin-bottom: 15px;
+}
+
+li:not(:last-of-type) {
+    margin-bottom: 14px;
+}
+
+li:last-of-type {
+    margin-bottom: 8px;
 }
 
 .reaction {
