@@ -107,3 +107,7 @@ h1 {
 #result-summary {
     padding: 30px 50px;
 }
+
+ul {
+    list-style-type: none;
+}
