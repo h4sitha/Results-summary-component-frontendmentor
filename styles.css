@@ -200,3 +200,11 @@ button:hover {
     }
 
 }
+
+@media (max-width: 376px) {
+
+    html {
+        font-size: 16px;
+    }
+
+}
