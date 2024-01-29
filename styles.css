@@ -52,6 +52,7 @@ main {
     color: hsl(0, 0%, 100%);
     text-align: center;
     border-radius: 30px;
+    padding: 30px 50px 50px 50px;
 }
 
 #result-marks h1,
@@ -62,7 +63,6 @@ main {
 
 #marks span {
     display: block;
-    /* height: 30%; */
 }
 
 #marks {
@@ -90,8 +90,10 @@ main {
 
 #result-marks h2 {
     font-size: 1.75rem;
+    margin: 20px 0 15px 0;
 }
 
 #result-marks h1 {
     font-size: 1.25rem;
+    margin-bottom: 30px;
 }
