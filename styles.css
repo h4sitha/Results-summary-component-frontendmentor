@@ -51,12 +51,7 @@ main {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     color: hsl(0, 0%, 100%);
     text-align: center;
-    padding: 15px 0;
     border-radius: 30px;
-}
-
-#result-marks p {
-    padding: 0 50px 15px 50px;
 }
 
 #result-marks h1,
@@ -91,15 +86,12 @@ main {
 
 #marks span:last-of-type {
     font-size: 0.95rem;
-    margin-top: -7px;
 }
 
 #result-marks h2 {
     font-size: 1.75rem;
-    margin-bottom: -7px;
 }
 
 #result-marks h1 {
     font-size: 1.25rem;
-    margin-bottom: 30px;
 }
