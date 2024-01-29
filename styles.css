@@ -188,3 +188,11 @@ li div:last-of-type span:first-of-type {
 button:hover {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
+
+@media (max-width: 600px) {
+    
+    body {
+        height: 100%;
+    }
+
+}
