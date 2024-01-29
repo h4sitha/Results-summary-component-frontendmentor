@@ -30,7 +30,7 @@ body {
 }
 
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -101,7 +101,7 @@ h1 {
 /* Right side */
 
 #result-summary {
-    padding: 30px 35px;
+    padding: 30px 35px 50px 35px;
 }
 
 ul {
@@ -118,7 +118,7 @@ li {
     justify-content: space-between;
     padding: 12px 15px;
     border-radius: 8px;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 .reaction {
