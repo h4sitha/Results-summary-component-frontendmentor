@@ -30,7 +30,7 @@ button {
 }
 
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 main {
@@ -41,6 +41,17 @@ main {
 #result-marks,
 #result-summary {
     width: 50%;
+}
+
+#result-marks {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+}
+
+#result-marks h1,
+#result-marks p,
+#result-marks span:last-of-type {
+    color: hsl(241, 100%, 89%);
 }
 
 #marks span {
@@ -55,6 +66,7 @@ main {
     text-align: center;
     margin: auto;
     padding: 20px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
 
 #marks span:first-of-type {
