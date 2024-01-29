@@ -112,7 +112,7 @@ h1 {
 }
 
 #result-summary h1 {
-    margin-bottom: 0;
+    margin-bottom: 25px;
     color: hsl(224, 30%, 27%);
 }
 
@@ -137,7 +137,7 @@ li:not(:last-of-type) {
 }
 
 li:last-of-type {
-    margin-bottom: 8px;
+    margin-bottom: 25px;
 }
 
 .reaction {
