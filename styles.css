@@ -40,11 +40,14 @@ main {
     display: flex;
     width: 700px;
     border: 1px solid black;
+    flex-wrap: wrap ;
 }
 
 #result-marks,
 #result-summary {
     width: 50%;
+    min-width: 300px;
+    flex-grow: 1;
 }
 
 #result-marks {
