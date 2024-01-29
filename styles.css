@@ -52,6 +52,12 @@ main {
 #result-marks {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 20px 0;
+}
+
+#result-marks p {
+    padding: 0 50px;
 }
 
 #result-marks h1,
