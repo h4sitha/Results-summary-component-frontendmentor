@@ -195,4 +195,8 @@ button:hover {
         height: 100%;
     }
 
+    #result-marks {
+        border-radius: 0 0 30px 30px;
+    }
+
 }
