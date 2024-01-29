@@ -82,6 +82,18 @@ main {
 }
 
 #marks span:first-of-type {
-    font-size: 60px;
+    font-size: 3.5rem;
     height: 70%;
+}
+
+#marks span:last-of-type {
+    font-size: 0.9rem;
+}
+
+#result-marks h2 {
+    font-size: 1.75rem;
+}
+
+#result-marks h1 {
+    font-size: 1.25rem;
 }
